@@ -17,3 +17,4 @@
 ## github.
 
 #### En un principio, la ejecucion de suma_resta.py tardaba 0,01 segundos, y el valor final daba 0. Al descomentar las lineas 11, 12, 19 y 20, la ejecucion tarda mucho mas, al rededor de 2,3 segundos y los valores fueron variando, por ej de las 10 ejecuciones, en una ocasion dio -88430 y en otra 466155.
+#### Se debe a que al descomentar, la linea pasa a ser codigo y esta debe ser procesada alentizando la ejecucion del proceso
