@@ -7,7 +7,7 @@ ciudad="Bahia Blanca"
 clave_api="5611dd13d00c4587a2b190850242006"
 
 # Hacer la solicitud a la API
-datos_clima=$(curl -s "http://api.weatherapi.com/v1/current.json?key=$clave_api&q=$ciudad")
+datos_clima=$(curl -s "http://api.weatherapi.com/v1/current.json?key=5611dd13d00c4587a2b190850242006&q=Bahia+Blanca")
 
 
 clima=$(echo "$datos_clima" | jq '.current.condition.text' -r)
